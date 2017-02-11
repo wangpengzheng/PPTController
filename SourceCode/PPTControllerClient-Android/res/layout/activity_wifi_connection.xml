@@ -1,0 +1,121 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/bkcolor"
+    tools:context=".WifiConnectionActivity"
+     >
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        />
+    
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        >
+        
+        <TextView 
+            android:id="@+id/wifiTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:text="@string/text_wifi"
+            android:textSize="20sp"            
+            />
+        
+        <RelativeLayout 
+            android:id="@+id/computerRLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/wifiTextView"
+            android:layout_alignParentLeft="true"
+            >
+            
+            <TextView 
+                android:id="@+id/computerTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_alignParentLeft="true"
+                android:text="@string/text_detected_computer"
+                android:textSize="14sp"
+                />
+            
+            <ImageButton 
+                android:id="@+id/wifiImageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_wifi"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:paddingLeft="6dp"
+                android:paddingRight="6dp"
+                android:clickable="true"
+                />
+
+            <ImageButton
+                android:id="@+id/addImageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:paddingLeft="6dp"
+                android:paddingRight="6dp"
+                android:layout_toLeftOf="@+id/wifiImageButton"
+                android:background="@drawable/ic_addbutton"
+                android:clickable="true"
+                />
+
+            <ImageButton 
+                android:id="@+id/refreshImageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/addImageButton"    
+                android:layout_alignParentTop="true"
+                android:paddingLeft="6dp"
+                android:paddingRight="6dp"
+                android:background="@drawable/ic_refresh"
+                android:clickable="true"
+                />
+        </RelativeLayout>
+        
+        <ListView 
+            android:id="@+id/computerListView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/computerRLayout"
+            android:layout_above="@+id/connectButton"
+            android:layout_alignParentLeft="true"
+            android:background="@color/white"
+            
+            />
+        
+        <Button 
+            android:id="@+id/connectButton"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="7.0dp"
+            android:textSize="14sp"
+            android:text="@string/text_ipconnection_connect"
+            android:background="#3366CC"
+            />
+        
+    </RelativeLayout>
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        />
+
+</LinearLayout>

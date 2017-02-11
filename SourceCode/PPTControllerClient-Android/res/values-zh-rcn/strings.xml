@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PPT控制器</string>
+    <string name="title_activity_main">PPT控制器</string>
+    <string name="action_settings">设置</string>
+    <string name="action_start">开始</string>
+    <string name="action_fullscreen">全屏</string>
+    <string name="action_exit">正常</string>
+    <string name="wifi_description">连接到无线网</string>
+    <string name="setup_description">设置</string>
+    <string name="bluetooth_description">连接到蓝牙</string>
+    <string name="hotspot_description">热点</string>
+	<string name="text_vibrate">开启震动</string>
+	<string name="text_defaulthotspotip">默认热点IP:</string>
+	<string name="text_ipconnection_ip">IP:</string>
+	<string name="text_ipconnection_hint">请输入IP地址</string>
+	<string name="text_ipconnection_tip">IP地址(例如 192.168.1.10)</string>
+	<string name="text_ipconnection_connect">连接</string>
+	<string name="text_detected_computer">检测到的主机</string>
+    <string name="text_paired_device">配对设备</string>
+    <drawable name="bkcolor">#FF6D8764</drawable>
+    
+
+    <string name="title_activity_fullscreen">PPT控制器</string>
+    <string name="title_activity_pptcontroller">PPT控制器</string>
+    <string name="userguide">使用手册</string>
+    <string name="userguide_link">http://112.124.49.118:8080/zh-CN/ppt-controller</string>
+    <string name="text_wifi">无线网</string>
+    <string name="text_bluetooth">蓝牙</string>
+    <string name="text_hotspot">热点</string>
+    <string name="text_setup">设置</string>
+    <string name="title_activity_wifi_connection">PPT控制器 无线网</string>
+    <string name="title_activity_wifi_ipdirect">PPT控制器</string>
+    <string name="title_activity_execution">PPT控制器</string>
+    <string name="title_activity_blue_tooth_connection">PPT控制器蓝牙</string>
+    <string name="title_activity_setup">PPT控制器设置</string>
+    <string name="exit_press_back_twice_message">再按一次退出程序</string>
+	<string name="dialog_update_title">更新</string>
+	<string name="dialog_update_msg">发现新的版本，版本:</string>
+	<string name="dialog_update_msg2">，现在更新?</string>
+	<string name="dialog_update_btnupdate">更新</string>
+	<string name="dialog_update_btnnext">忽略</string>
+	<string name="dialog_downloading_msg">下载中</string>
+	<string name="dialog_alert_title">警告</string>
+	<string name="dialog_downfailed_btndown">再试一次</string>
+	<string name="dialog_downfailed_btnnext">下次</string>
+	<string name="dialog_error_title">错误</string>
+	<string name="dialog_downfailed_msg">下载错误, 重试一次?</string>
+	
+	<string name="dialog_wifi_multicast">组播无效</string>
+	
+	<string name="text_preview">开启预览图</string>
+	<string name="text_voteus">支持一下</string>
+	<string name="text_visitus">访问主页</string>
+	<string name="text_reset">重置</string>
+	
+	<string name="message_connect_bluetooth_fail">套接字连接失败</string>
+	<string name="message_find_bluetooth">找到驱动:</string>
+	<string name="message_find_bluetooth_done">完成</string>
+	<string name="message_connect_bluetooth_format">连接到  %s 注意从主机发来的请求</string>
+	<string name="message_default">PPT控制器有错误发生</string>
+	<string name="message_default_args">PPT控制器有错误发生: %s</string>
+	<string name="message_multicast_timeout_error">连接超时，这台设备可能不支持组播</string>
+	<string name="message_multicast_initialization_error_args">初始化组播模块失败: %s</string>
+	<string name="message_ipconnect_error">请确认IP地址是否正确，然后重试</string>
+	<string name="message_wificonnect_error">没有可用的无线网连接，请确认后再尝试</string>
+	
+	<string name="dialog_bluetooth_enable">必须开启蓝牙才能使用这个功能</string>
+	<string name="dialog_wifi_enable">必须开启无线网络才能使用这个功能</string>
+	<string name="dialog_button_ok">确定</string>
+    
+</resources>

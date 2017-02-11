@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bkcolor"
+    tools:context=".Execution"
+    android:keepScreenOn="true" >
+
+    <RelativeLayout 
+        android:id="@+id/touchLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+		android:visibility="visible"
+		android:paddingLeft="10dip"
+		android:paddingRight="10dip"
+		android:paddingTop="5dip"
+		android:paddingBottom="5dip"
+        >
+
+        <ImageView
+            android:id="@+id/touchLeftImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:clickable="false"
+            android:src="@drawable/left"/>
+
+        <ImageView
+            android:id="@+id/touchRightImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:clickable="false"
+            android:src="@drawable/right"/>
+
+        <ImageView
+            android:id="@+id/touchUpImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:clickable="false"
+            android:src="@drawable/up"/>
+
+        <ImageView
+            android:id="@+id/touchDownImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:clickable="false"
+            android:src="@drawable/down"/>
+
+        <ImageView
+            android:id="@+id/previewImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/touchDownImg"
+            android:layout_below="@+id/touchUpImg"
+            android:layout_toLeftOf="@+id/touchRightImg"
+            android:layout_toRightOf="@+id/touchLeftImg"
+            android:src="@drawable/bkcolor" />
+        
+    </RelativeLayout>
+
+
+</RelativeLayout>

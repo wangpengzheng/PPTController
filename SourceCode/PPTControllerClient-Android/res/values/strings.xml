@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PPT Controller</string>
+    <string name="title_activity_main">PPT Controller</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_start">Start</string>
+    <string name="action_fullscreen">Full</string>
+    <string name="action_exit">Normal</string>
+    <string name="wifi_description">Connect to wifi</string>
+    <string name="setup_description">Setup</string>
+    <string name="bluetooth_description">Connect to bluetooth</string>
+    <string name="hotspot_description">Hotspot</string>
+	<string name="text_vibrate">Vibrate by each action</string>
+	<string name="text_defaulthotspotip">Default Hotspot IP:</string>
+	<string name="text_ipconnection_ip">IP:</string>
+	<string name="text_ipconnection_hint">Please input IP address</string>
+	<string name="text_ipconnection_tip">IP Address (Sample 192.168.1.10)</string>
+	<string name="text_ipconnection_connect">Connect</string>
+	<string name="text_detected_computer">Detected Computer</string>
+    
+    <drawable name="bkcolor">#FF6D8764</drawable>
+
+    <string name="title_activity_fullscreen">PPT Controller</string>
+    <string name="title_activity_pptcontroller">PPT Controller</string>
+    <string name="userguide">How to use?</string>
+    <string name="userguide_link">http://112.124.49.118:8080/zh-CN/ppt-controller</string>
+    <string name="text_wifi">Wifi</string>
+    <string name="text_bluetooth">Bluetooth</string>
+    <string name="text_hotspot">Hotspot</string>
+    <string name="text_setup">Setup</string>
+    <string name="title_activity_wifi_connection">PPT Controller Wifi</string>
+    <string name="title_activity_wifi_ipdirect">PPT Controller</string>
+    <string name="title_activity_execution">PPT Controller Execution</string>
+    <string name="title_activity_blue_tooth_connection">PPT Controller BlueTooth</string>
+    <string name="title_activity_setup">PPT Controller Setup</string>
+    <string name="exit_press_back_twice_message">Click again to exit</string>
+	<string name="dialog_update_title">Update</string>
+	<string name="dialog_update_msg">Found newer version， No:</string>
+	<string name="dialog_update_msg2">，Updating now?</string>
+	<string name="dialog_update_btnupdate">Update</string>
+	<string name="dialog_update_btnnext">Next time</string>
+	<string name="dialog_downloading_msg">Downloading</string>
+	<string name="dialog_alert_title">Warning</string>
+	<string name="dialog_downfailed_btndown">Try again</string>
+	<string name="dialog_downfailed_btnnext">Next time</string>
+	<string name="dialog_error_title">Error</string>
+	<string name="dialog_downfailed_msg">Download failed, retry?</string>
+	
+	<string name="text_paired_device">Paired Devices</string>
+	
+	<string name="text_preview">Enable preview</string>
+	<string name="text_voteus">Vote us</string>
+	<string name="text_visitus">Visit us</string>
+	<string name="text_reset">Reset</string>
+	
+	<string name="dialog_wifi_multicast">Multicast Unavailable</string>
+	<string name="message_connect_bluetooth_fail">Socket Connecting failed</string>
+	<string name="message_find_bluetooth">find device:</string>
+	<string name="message_find_bluetooth_done">discovery done</string>
+	<string name="message_connect_bluetooth_format">Connecting to %s and pay attention to the request from host</string>
+	<string name="message_default">There is an error in PPT Controller.</string>
+	<string name="message_default_args">There is an error in PPT Controller: %s</string>
+	<string name="message_multicast_timeout_error">Connection is timeout. Multicast may not be supported in this device.</string>
+	<string name="message_multicast_initialization_error_args">Cannot initialize mutlicast features: %s</string>
+	<string name="message_ipconnect_error">Please correct the Ip address to correct format and try again.</string>
+	<string name="message_wificonnect_error">There is no wifi connection available, please double check and retry again.</string>
+	<string name="dialog_bluetooth_enable">bluetooth needs to be enabled to use this feature</string>
+	<string name="dialog_wifi_enable">You need to enable Wifi to use this feature</string>
+	<string name="dialog_button_ok">OK</string>
+
+</resources>

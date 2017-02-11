@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_start"
+        android:orderInCategory="1"
+        android:showAsAction="never"
+        android:title="@string/action_start"
+        android:icon="@drawable/start"
+        />
+    <item 
+        android:id="@+id/action_fullscreen"
+        android:orderInCategory="2"
+        android:showAsAction="never"
+        android:title="@string/action_fullscreen"
+        android:icon="@drawable/fullscreen"
+        />
+	<item
+	    android:id="@+id/action_exit"
+	    android:orderInCategory="3"
+        android:showAsAction="never"
+	    android:title="@string/action_exit"
+	    android:icon="@drawable/normalview"
+	    />
+</menu>
