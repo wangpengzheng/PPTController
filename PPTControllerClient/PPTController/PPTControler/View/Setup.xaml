@@ -1,0 +1,31 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="PPTController.View.Setup"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    DataContext="{Binding SetupViewModel, Source={StaticResource ViewModelLocator}}" 
+    SupportedOrientations="Landscape" Orientation="LandscapeLeft"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <Grid x:Name="LayoutRoot" Background="#FF6D8764">
+        <!--ContentPanel - place additional content here-->
+        <Rectangle Fill="#FFF4F4F5" Height="5" Margin="0,35,0,0" VerticalAlignment="Top"/>
+        <Canvas x:Name="_1_PPT" Margin="35,65,27,26">
+            <TextBlock x:Name="PPT_Controller" Foreground="#FFFFFFFF" FontSize="36" FontFamily="Segoe UI Semilight" LineStackingStrategy="BlockLineHeight" Canvas.Left="-2" LineHeight="36" TextAlignment="Left" TextWrapping="Wrap" Text="{Binding Path=LocalizedResources.PPTControllerSetup, Source={StaticResource LocalizedStrings}}" Canvas.Top="1.32"/>
+            <TextBlock Canvas.Left="44" TextWrapping="Wrap" Text="{Binding Path=LocalizedResources.DefaultHotSpotIP, Source={StaticResource LocalizedStrings}}" Canvas.Top="155" Width="212"/>
+            <CheckBox Content="{Binding Path=LocalizedResources.VibrateControl, Source={StaticResource LocalizedStrings}}" IsChecked="{Binding ShakeByAction, Mode=TwoWay}"  Canvas.Left="31" Canvas.Top="49"/>
+            <TextBox Height="72" Canvas.Left="237" TextWrapping="Wrap" Text="{Binding HotSpotIP, Mode=TwoWay}" Canvas.Top="132" Width="389"/>
+            <Button Content="{Binding Path=LocalizedResources.VoteUs, Source={StaticResource LocalizedStrings}}" Command="{Binding VoteCommand, Mode=OneWay}" Canvas.Left="31" Canvas.Top="231" Height="148" Width="183"/>
+            <Button Content="{Binding Path=LocalizedResources.VisitUs, Source={StaticResource LocalizedStrings}}" Command="{Binding VisitCommand, Mode=OneWay}" Canvas.Left="237" Canvas.Top="231" Height="148" Width="183"/>
+            <Button Content="{Binding Path=LocalizedResources.Reset, Source={StaticResource LocalizedStrings}}" Command="{Binding ResetCommand, Mode=OneWay}" Canvas.Left="438" Canvas.Top="231" Height="148" Width="183"/>            
+        </Canvas>
+    </Grid>
+
+</phone:PhoneApplicationPage>

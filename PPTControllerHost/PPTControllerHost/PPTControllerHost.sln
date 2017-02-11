@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PPTControllerHost", "PPTControllerHost\PPTControllerHost.csproj", "{B3049B23-C7DC-4217-9395-B8F1DEAB4751}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualRouter.ICS", "VirtualRouter.ICS\VirtualRouter.ICS.csproj", "{15C47D07-8153-4088-A4BC-21AA7322F0D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualRouter.Wlan", "VirtualRouter.Wlan\VirtualRouter.Wlan.csproj", "{96A68F5B-CD7F-4F65-9B40-FD492927B725}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualRouterHost", "VirtualRouterHost\VirtualRouterHost.csproj", "{DBE6E8F0-8180-45A6-878C-79E6F7523BF5}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://wangpengzheng.visualstudio.com/DefaultCollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = PPTControllerHost\\PPTControllerHost.csproj
+		SccProjectName1 = PPTControllerHost
+		SccLocalPath1 = PPTControllerHost
+		SccProjectUniqueName2 = VirtualRouter.ICS\\VirtualRouter.ICS.csproj
+		SccProjectName2 = VirtualRouter.ICS
+		SccLocalPath2 = VirtualRouter.ICS
+		SccProjectUniqueName3 = VirtualRouter.Wlan\\VirtualRouter.Wlan.csproj
+		SccProjectName3 = VirtualRouter.Wlan
+		SccLocalPath3 = VirtualRouter.Wlan
+		SccProjectUniqueName4 = VirtualRouterHost\\VirtualRouterHost.csproj
+		SccProjectName4 = VirtualRouterHost
+		SccLocalPath4 = VirtualRouterHost
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3049B23-C7DC-4217-9395-B8F1DEAB4751}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3049B23-C7DC-4217-9395-B8F1DEAB4751}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3049B23-C7DC-4217-9395-B8F1DEAB4751}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3049B23-C7DC-4217-9395-B8F1DEAB4751}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15C47D07-8153-4088-A4BC-21AA7322F0D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15C47D07-8153-4088-A4BC-21AA7322F0D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15C47D07-8153-4088-A4BC-21AA7322F0D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15C47D07-8153-4088-A4BC-21AA7322F0D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96A68F5B-CD7F-4F65-9B40-FD492927B725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96A68F5B-CD7F-4F65-9B40-FD492927B725}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96A68F5B-CD7F-4F65-9B40-FD492927B725}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96A68F5B-CD7F-4F65-9B40-FD492927B725}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBE6E8F0-8180-45A6-878C-79E6F7523BF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBE6E8F0-8180-45A6-878C-79E6F7523BF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBE6E8F0-8180-45A6-878C-79E6F7523BF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBE6E8F0-8180-45A6-878C-79E6F7523BF5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
