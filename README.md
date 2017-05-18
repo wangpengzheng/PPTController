@@ -1,7 +1,7 @@
 ### PPTController & PPTControllerHost are two apps which can help you control your PPT through your Phone.
  
 ## PPTControllerHost
-Is a Win form app which install on your computer side, which one you are going to have presentation. It will listen the control commands from PPTController to perform the following operations to your PPT, start your PPT, switch your PPT between "Fullscreen mode" with "Preview mode", navigate in your PPT.
+PPTControllerHost is a Windows form app which install on your computer side(by WPF), which one you are going to have presentation. It will listen the control commands from PPTController to perform the following operations to your PPT, start your PPT, switch your PPT between "Fullscreen mode" with "Preview mode", navigate in your PPT.
 
 ![](https://github.com/wangpengzheng/PPTController/blob/master/PPTController%20Documentation/Pics/Introduct_01.jpg)
 
